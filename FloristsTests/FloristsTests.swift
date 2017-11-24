@@ -9,6 +9,16 @@
 import XCTest
 @testable import Florists
 
+class MockDeliverer: Deliverable {
+    
+    var delivered = false
+    func deliver() {
+        delivered = true
+    }
+    
+    
+}
+
 class FloristsTests: XCTestCase {
     
     override func setUp() {
@@ -21,9 +31,13 @@ class FloristsTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testPeterDelivers() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let shrub = Shrub()
+        let mockDeliverer = MockDeliverer()
+        shrub.suprisesMyBoyfriendOnHisBirthday(deliverer: mockDeliverer)
+        XCTAssertTrue(mockDeliverer.delivered)
     }
     
     func testPerformanceExample() {

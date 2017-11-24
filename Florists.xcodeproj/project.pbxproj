@@ -13,6 +13,9 @@
 		22C414DF1FC7C08800673236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C414DE1FC7C08800673236 /* Assets.xcassets */; };
 		22C414E21FC7C08800673236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C414E01FC7C08800673236 /* LaunchScreen.storyboard */; };
 		22C414ED1FC7C08800673236 /* FloristsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C414EC1FC7C08800673236 /* FloristsTests.swift */; };
+		22C414F81FC7C09400673236 /* Shrub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C414F71FC7C09400673236 /* Shrub.swift */; };
+		22C414FA1FC7C0BF00673236 /* Peter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C414F91FC7C0BF00673236 /* Peter.swift */; };
+		22C414FC1FC7C1C800673236 /* James.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C414FB1FC7C1C800673236 /* James.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		22C414E81FC7C08800673236 /* FloristsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloristsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C414EC1FC7C08800673236 /* FloristsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloristsTests.swift; sourceTree = "<group>"; };
 		22C414EE1FC7C08900673236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C414F71FC7C09400673236 /* Shrub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shrub.swift; sourceTree = "<group>"; };
+		22C414F91FC7C0BF00673236 /* Peter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter.swift; sourceTree = "<group>"; };
+		22C414FB1FC7C1C800673236 /* James.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = James.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				22C414D71FC7C08800673236 /* AppDelegate.swift */,
 				22C414D91FC7C08800673236 /* ViewController.swift */,
+				22C414F71FC7C09400673236 /* Shrub.swift */,
+				22C414F91FC7C0BF00673236 /* Peter.swift */,
+				22C414FB1FC7C1C800673236 /* James.swift */,
 				22C414DB1FC7C08800673236 /* Main.storyboard */,
 				22C414DE1FC7C08800673236 /* Assets.xcassets */,
 				22C414E01FC7C08800673236 /* LaunchScreen.storyboard */,
@@ -199,7 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C414FC1FC7C1C800673236 /* James.swift in Sources */,
+				22C414F81FC7C09400673236 /* Shrub.swift in Sources */,
 				22C414DA1FC7C08800673236 /* ViewController.swift in Sources */,
+				22C414FA1FC7C0BF00673236 /* Peter.swift in Sources */,
 				22C414D81FC7C08800673236 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
